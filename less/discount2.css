@@ -1,0 +1,168 @@
+.fullCut {
+  width: 100%;
+  background-color: white;
+  border-radius: 0.25rem;
+  position: relative;
+}
+.fullCut .green_fullcut {
+  width: 100%;
+  height: 7.28125rem;
+  background-color: #55bc75;
+  position: relative;
+  padding: 1.09375rem 0.9375rem;
+  box-sizing: border-box;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+.fullCut .green_fullcut p:first-of-type {
+  color: white;
+  font-size: 1.4375rem;
+  opacity: 1;
+}
+.fullCut .green_fullcut p:nth-of-type(2) {
+  color: white;
+  font-size: 0.75rem;
+  opacity: 0.5;
+}
+.fullCut .green_fullcut p:last-of-type {
+  color: white;
+  font-size: 0.6875rem;
+  opacity: 0.8;
+}
+.fullCut .green_fullcut .last_p {
+  margin-top: 1.40625rem;
+}
+.icon-time {
+  display: inline-block;
+  width: 0.6875rem;
+  height: 0.6875rem;
+  color: white;
+}
+.last_p p {
+  color: white;
+  font-size: 0.6875rem;
+  opacity: 0.8;
+}
+.last_p input {
+  width: 3.0625rem;
+  height: 1.125rem;
+  line-height: 1.125rem;
+  background-color: black;
+  opacity: 0.5;
+  color: white;
+  padding: 0.03125rem;
+  box-sizing: border-box;
+  font-size: 0.6875rem;
+  border-radius: 3px;
+}
+.sale {
+  position: absolute;
+  top: -0.5625rem;
+  right: -0.15625rem;
+}
+.sale img {
+  display: block;
+  width: 4.625rem;
+  height: 4.625rem;
+}
+.green_bottom {
+  display: flex;
+  justify-content: space-around;
+}
+.green_bottom p {
+  text-align: center;
+  line-height: 2.5rem;
+  color: #ccc;
+}
+.green_bottom p span {
+  color: #55bc75;
+  margin-right: 0.0625rem;
+}
+.green_bottom .line {
+  margin-top: 0.46875rem;
+  width: 0.0625rem;
+  height: 1.53125rem;
+  background-color: #ccc;
+}
+.ul_dot {
+  width: 100%;
+  position: absolute;
+  top: 71%;
+}
+.ul_dot ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.ul_dot ul li {
+  float: left;
+  width: 0.5625rem;
+  height: 0.5625rem;
+  background-color: white;
+  border-radius: 50%;
+}
+.fiveDiscount {
+  width: 100%;
+  position: relative;
+  border-radius: 0.25rem;
+  background-color: #a974bc;
+  padding: 0.5625rem 0.625rem 0.75rem;
+  box-sizing: border-box;
+}
+.fiveDiscount .f_p {
+  line-height: 2.375rem;
+}
+.fiveDiscount p:first-of-type span:first-of-type {
+  color: white;
+  font-size: 1.4375rem;
+  opacity: 1;
+}
+.fiveDiscount p:first-of-type span:nth-of-type(2) {
+  color: white;
+  font-size: 2.5rem;
+  opacity: 1;
+}
+.fiveDiscount p:first-of-type span:nth-of-type(3) {
+  color: white;
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+.fiveDiscount p:nth-of-type(2) {
+  margin-top: 1.40625rem;
+  color: white;
+  font-size: 0.6875rem;
+  opacity: 0.8;
+}
+.fiveDiscount p:nth-of-type(3) {
+  margin-top: 0.3125rem;
+  color: white;
+  font-size: 0.6875rem;
+  opacity: 0.8;
+}
+.fiveDiscount .last_p {
+  margin-top: 0.3125rem;
+}
+.puper {
+  margin-top: 0.875rem;
+  box-sizing: border-box;
+}
+.puper .puper_fullcut {
+  background-color: #a974bc;
+}
+.puper .puper_iconedit {
+  color: #a974bc;
+}
+.puper .puper_uldot {
+  top: 74%;
+}
+.addDiscount {
+  margin-top: 0.75rem;
+  background-color: white;
+}
+.message {
+  margin: 1.8125rem 0 1.5rem;
+}
+.message p {
+  line-height: 1.25rem;
+  color: #aeaeae;
+  font-size: 0.75rem;
+}

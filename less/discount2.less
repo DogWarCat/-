@@ -1,0 +1,184 @@
+@number:20;
+@size:640/@number;
+.fullCut{
+    width: 100%;
+    // height: 316rem/@size;
+    background-color: white;
+    border-radius: 8rem/@size;
+    position: relative;
+    .green_fullcut{
+        .color_fullcut(#55bc75);
+    }
+}
+// 锯齿状色彩部分
+.color_fullcut(@color){
+        width: 100%;
+        height: 233rem/@size;
+        background-color:@color;
+        position: relative;
+        padding: 35rem/@size 30rem/@size;
+        box-sizing: border-box;
+        border-radius: 8rem/@size 8rem/@size 0 0;
+        p:first-of-type{
+            .green_p(white,46rem/@size,1);
+        }
+        p:nth-of-type(2){
+            .green_p(white,24rem/@size,0.5);
+        }
+        p:last-of-type{
+            // width: 330rem/@size;
+            // letter-spacing: 1rem/@size;
+            .green_p(white,22rem/@size,0.8);
+        }
+        .last_p{
+            margin-top: 45rem/@size;
+        }
+    }
+.green_p(@color,@fontSize,@opacity){
+    color: @color;
+    font-size:@fontSize ;
+    opacity: @opacity;
+}
+
+.icon-time{
+    display:inline-block;
+    width: 22rem/@size;
+    height: 22rem/@size;
+    // margin-right:12rem/@size; 
+    color: white;
+}
+.last_p{
+    p{
+        .green_p(white,22rem/@size,0.8);
+    }
+    input{
+        // margin-left: 60rem/@size;
+       width: 98rem/@size;
+       height: 36rem/@size;
+       line-height: 36rem/@size;
+    //    text-align: center;
+       background-color:black;
+       opacity: 0.5;
+       color: white;
+       padding: 1rem/@size;
+       box-sizing: border-box;
+       font-size: 22rem/@size;
+       border-radius: 3px
+    }
+}
+// sale图片部分
+.sale{
+    position: absolute;
+    top: -18rem/@size;
+    right: -5rem/@size;
+}
+.sale{
+    img{
+    display: block;
+    width: 148rem/@size;
+    height: 148rem/@size;
+    }
+}
+// 色块底部白色状部分
+.green_bottom{
+    display: flex;
+    justify-content: space-around;
+    // position: relative;
+    p{
+        text-align: center;
+        line-height: 80rem/@size;
+        // font-size: 26rem@size;
+        color: #ccc;
+        span{
+            color: #55bc75;
+            margin-right: 2rem/@size;
+        }
+    }
+    .line{
+        margin-top: 15rem/@size;
+       width: 2rem/@size;
+       height: 49rem/@size;
+       background-color: #ccc;
+    }
+}
+.ul_dot{
+    width: 100%;
+    position: absolute;
+    top: 71%;
+    ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        // left: 0;
+        // transform: translate(0,-50%);
+        li{
+            float: left;
+            width: 18rem/@size;
+            height: 18rem/@size;
+            // margin-left: 6rem/@size;
+            background-color: white;
+            border-radius: 50%;
+        }
+    }
+}
+// 5元优惠券
+.fiveDiscount{
+    width: 100%;
+    position: relative;
+    border-radius: 8rem/@size;
+    background-color: #a974bc;
+    padding: 18rem/@size 20rem/@size 24rem/@size;
+    box-sizing: border-box;
+    .f_p{
+        line-height: 76rem/@size;
+    }
+    p:first-of-type{
+        span:first-of-type{
+            .green_p(white,46rem/@size,1);
+        }
+        span:nth-of-type(2){
+            .green_p(white,80rem/@size,1);
+        }
+        span:nth-of-type(3){
+            .green_p(white,24rem/@size,0.7);
+        }
+    }
+    p:nth-of-type(2){
+        margin-top: 45rem/@size;
+        .green_p(white,22rem/@size,0.8);
+    }
+    p:nth-of-type(3){
+        margin-top: 10rem/@size;
+        .green_p(white,22rem/@size,0.8);
+    }
+    .last_p{
+        margin-top: 10rem/@size;
+    }
+}
+.puper{
+    margin-top: 28rem/@size;
+    box-sizing: border-box;
+    .puper_fullcut{
+        background-color: #a974bc;
+    }
+    .puper_iconedit{
+        color: #a974bc;
+    }
+    .puper_uldot{
+        top:74%;
+    }
+}
+.addDiscount{
+    margin-top: 24rem/@size;
+    background-color: white
+}
+.message{
+    margin: 58rem/@size 0 48rem/@size;
+}
+.message{
+    p{
+        line-height: 40rem/@size;
+        color: #aeaeae;
+        font-size: 24rem/@size;
+    }
+}

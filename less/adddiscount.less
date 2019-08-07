@@ -1,0 +1,52 @@
+@number:20;
+@size:640/@number;
+// 内容区
+.content{
+    background-color: #f7f4f1;
+    padding: 0 26rem/@size;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+// 全场优惠
+.discount{
+    width: 100%;
+    height: 84rem/@size;
+    line-height: 84rem/@size;
+}
+// 添加优惠券
+.spantext(@fontSize,@color){
+    font-size: @fontSize;
+    color: @color;
+}
+.discount{
+    span:first-of-type{
+        display: block;
+        float: left;
+       .spantext(28rem/@size,black);
+    }
+    span:last-of-type{
+        display: block;
+        float: right;
+       .spantext(28rem/@size, #ccc);
+    }
+}
+.addDiscount{
+    width: 100%;
+    height: 219rem/@size;
+    border: 1rem/@size dashed #dedede;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.icon-add{
+    display: block;
+    font-size: 98rem/@size;
+    color: #aeaeae;
+}
+.addbtn{
+    span{
+        font-size: 26rem/@size;
+        color: #aeaeae;
+    }
+}

@@ -1,0 +1,123 @@
+.content {
+  width: 100%;
+  overflow: hidden;
+  background-color: #f7f4f1;
+}
+.content .whiteInput {
+  margin: 0.9375rem 0 1.5625rem;
+}
+.content .whiteInput .activespan {
+  position: absolute;
+  top: 50%;
+  left: 0.625rem;
+  transform: translate(0, -50%);
+}
+.content .whiteInput .activespan span:first-of-type {
+  display: block;
+  font-size: 0.9375rem;
+  color: black;
+}
+.content .whiteInput .activespan span:nth-of-type(2) {
+  display: block;
+  font-size: 0.625rem;
+  color: #ccc;
+}
+.content .whiteInput .activespanyuan1 {
+  position: absolute;
+  top: 50%;
+  right: 0.625rem;
+  transform: translate(0, -50%);
+}
+.content .whiteInput .activespanyuan1 span {
+  display: block;
+  font-size: 0.9375rem;
+  color: #ccc;
+}
+.content .whiteInput .activespanyuan2 {
+  position: absolute;
+  top: 50%;
+  right: 0.625rem;
+  transform: translate(0, -50%);
+}
+.content .whiteInput .activespanyuan2 span {
+  display: block;
+  font-size: 0.8125rem;
+  color: #999999;
+}
+.content .whiteInput .everyinput {
+  position: relative;
+}
+.content .whiteInput .everyinput .f_boder {
+  border-top: 1px solid #e5e5e5;
+}
+.content .whiteInput .everyinput input {
+  padding-left: 5.5625rem;
+  display: block;
+  height: 3.1875rem;
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+}
+.content .whiteInput .everyinputtwo {
+  display: flex;
+}
+.content .whiteInput .everyinputtwo .satisfiedl {
+  flex: 1;
+  position: relative;
+}
+.content .whiteInput .everyinputtwo .satisfiedl input {
+  width: 50%;
+  padding-left: 5.5625rem;
+  padding-right: 1.71875rem;
+  display: block;
+  height: 3.1875rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+.content .whiteInput .everyinputtwo .satisfiedr {
+  flex: 1;
+  position: relative;
+  border-left: 1px solid #ccc;
+}
+.content .whiteInput .everyinputtwo .satisfiedr input {
+  width: 50%;
+  padding-left: 5.5625rem;
+  padding-right: 1.71875rem;
+  display: block;
+  height: 3.1875rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+.content .whiteInput .green_btn {
+  position: absolute;
+  top: 50%;
+  right: 0.625rem;
+  transform: translate(0, -50%);
+  width: 3.8125rem;
+  height: 1.5625rem;
+  border: 1px solid #ccc;
+  border-radius: 0.15625rem;
+  display: flex;
+  padding: 0.03125rem;
+  box-sizing: border-box;
+}
+.content .whiteInput .green_btn span {
+  flex: 1;
+}
+.content .whiteInput .green_btn .green {
+  flex: 1;
+  width: 1.625rem;
+  height: 1.3125rem;
+  border-radius: 2px;
+  background-color: #3baca7;
+}
+.content input[type="btn"] {
+  display: block;
+  width: 18.5rem;
+  height: 2.5rem;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 2.5rem;
+  background-color: orange;
+  color: white;
+  font-size: 1rem;
+  border-radius: 6px;
+  margin-bottom: 10.15625rem;
+}
