@@ -18,6 +18,10 @@ dd {
   list-style: none;
   color: #050505;
   font-family: "微软雅黑";
+<<<<<<< HEAD
+=======
+  font-size: 15px;
+>>>>>>> 3188edba6c685326b4532c8162232dbb6b25f3db
 }
 a {
   text-decoration: none;

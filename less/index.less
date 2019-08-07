@@ -1,5 +1,6 @@
 @number:20;
 @size:640/@number;
+<<<<<<< HEAD
 .message{
     margin: 115rem/@size 0 152rem/@size;
 }
@@ -8,5 +9,278 @@
         line-height: 40rem/@size;
         color: #aeaeae;
         font-size: 24rem/@size;
+=======
+.lvmama {
+    background-color: #f1f1f1;
+}
+
+.top {
+    height          : 40px;
+    line-height     : 40px;
+    width           : 100%;
+    display         : flex;
+    background-color: white;
+
+    .shanghai {
+        padding-left   : 11px;
+        flex           : 5;
+        display        : flex;
+        justify-content: flex-start;
+
+        // padding-right: 215px;
+        // position     : relative;
+        p {
+            font-size: 15px;
+            color: #d527a4;
+        }
+
+        p:last-of-type {
+            height    : 0;
+            width     : 0;
+            border    : 5px solid transparent;
+            border-top: 5px solid #d527a4;
+            margin-top: 18px;
+        }
+    }
+
+    // .shanghai::after{
+    //         content: "";
+
+    //         position: absolute;
+    //         top     : 0px;
+    //         right   : 0px;
+    // }
+
+    .human {
+        flex: 1;
+
+        a {
+            display    : block;
+            height     : 25px;
+            line-height: 25px;
+            margin-top : 4px;
+
+            img {
+                display: block;
+                height : 25px;
+            }
+        }
+    }
+
+    .dumpMother {
+        flex: 8;
+    }
+}
+
+// 广告区域
+.banner {
+    width           : 100%;
+    height          : 196px;
+    margin-bottom   : 10px;
+    background-color: white;
+    position        : relative;
+
+    img {
+        display: block;
+        width  : 100%;
+        height : 196px;
+    }
+
+    ul {
+        width   : 100%;
+        height  : 15rem/@size;
+        position: absolute;
+        bottom  : 9rem/@size;
+        left    : 35%;
+
+        li {
+            float           : left;
+            width           : 15rem/@size;
+            height          : 15rem/@size;
+            margin-right    : 8rem/@size;
+            border-radius   : 50%;
+            background-color: white;
+        }
+    }
+}
+
+// 图标导航区域1
+.listnav {
+    background-color: white;
+    width           : 100%;
+    display         : flex;
+    justify-content : space-between;
+    flex-wrap       : wrap;
+
+    .minnav {
+        width        : 33%;
+        margin-bottom: 8px;
+
+        img {
+            display: block;
+            width  : 100%;
+            height : 110px;
+        }
+    }
+}
+
+// 图标导航区域2
+.listnavTwo {
+    width           : 100%;
+    display         : flex;
+    flex-wrap       : wrap;
+    background-color: white;
+
+    // text-align: center;
+    .minTwo {
+        float        : left;
+        border-left  : 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        width        : 24.5%;
+
+        img {
+            display: block;
+            width  : 100%;
+            height : 110px;
+        }
+    }
+}
+
+// 图标导航区域3
+.listnavThree {
+    width           : 100%;
+    display         : flex;
+    margin-top      : 10px;
+    background-color: white;
+
+    .minThree {
+        width : 49.8%;
+        border: 1px solid #ccc;
+
+        .minThreeSmall {
+            height          : 112px;
+            border-bottom   : 1px solid #ccc;
+            background-color: #d527a4;
+
+            img {
+                width : 100%;
+                height: 112px;
+            }
+        }
+    }
+
+    .minThreeOneimg {
+        img {
+            display: block;
+            width  : 100%;
+            height : 225px;
+        }
+    }
+}
+
+// 热门活动
+.hot {
+    height      : 50px;
+    width       : 100%;
+    padding-top : 20px;
+    padding-left: 10px;
+    box-sizing  : border-box;
+}
+
+// 1元景点门票
+.longListNav {
+    width           : 100%;
+    // display      : flex;
+    background-color: white;
+
+    .Longnav {
+        width           : 100%;
+        // flex         : 1;
+        // border-bottom: 1px solid #ccc;
+        border-top      : 1px solid #ccc;
+
+        img {
+            width : 100%;
+            height: 122px;
+        }
+    }
+}
+
+// 灰色分割条
+.gray {
+    width        : 100%;
+    height       : 14px;
+    border-bottom: 1px solid #ccc;
+}
+
+// 度周末
+.week {
+    width     : 100%;
+    height    : 42px;
+    text-align: center;
+
+    .weekend {
+        width: 50%;
+
+        a {
+            padding-bottom: 9px;
+            box-sizing    : border-box;
+            margin        : 0 auto;
+            line-height   : 42px;
+        }
+    }
+}
+
+// 听音乐泡温泉
+.musicDiv {
+    width           : 100%;
+    background-color: white;
+
+    ul {
+        width: 100%;
+
+        li {
+            width: 100%;
+
+            a {
+                display: block;
+
+                img {
+                    display: block;
+                    height : 263px;
+                    width  : 100%;
+                }
+            }
+        }
+    }
+}
+
+// 查看更多
+.lookMore {
+    width : 100%;
+    margin: 15px 0;
+    height: 32px;
+
+    p {
+        width           : 100%;
+        line-height     : 32px;
+        text-align      : center;
+        background-color: white;
+    }
+}
+
+// 底部导航
+.bottomNav {
+    background-color: #d527a4;
+    width           : 100%;
+    height          : 30px;
+    line-height     : 30px;
+
+    input {
+        height          : 30px;
+        background-color: #d527a4;
+        color           : white;
+        margin-right    : 20px;
+>>>>>>> 3188edba6c685326b4532c8162232dbb6b25f3db
     }
 }
