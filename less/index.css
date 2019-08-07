@@ -1,0 +1,206 @@
+.lvmama {
+  background-color: #f1f1f1;
+}
+.top {
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  display: flex;
+  background-color: white;
+}
+.top .shanghai {
+  padding-left: 11px;
+  flex: 5;
+  display: flex;
+  justify-content: flex-start;
+}
+.top .shanghai p {
+  font-size: 15px;
+  color: #d527a4;
+}
+.top .shanghai p:last-of-type {
+  height: 0;
+  width: 0;
+  border: 5px solid transparent;
+  border-top: 5px solid #d527a4;
+  margin-top: 18px;
+}
+.top .human {
+  flex: 1;
+}
+.top .human a {
+  display: block;
+  height: 25px;
+  line-height: 25px;
+  margin-top: 4px;
+}
+.top .human a img {
+  display: block;
+  height: 25px;
+}
+.top .dumpMother {
+  flex: 8;
+}
+.banner {
+  width: 100%;
+  height: 196px;
+  margin-bottom: 10px;
+  background-color: white;
+  position: relative;
+}
+.banner img {
+  display: block;
+  width: 100%;
+  height: 196px;
+}
+.banner ul {
+  width: 100%;
+  height: 0.46875rem;
+  position: absolute;
+  bottom: 0.28125rem;
+  left: 35%;
+}
+.banner ul li {
+  float: left;
+  width: 0.46875rem;
+  height: 0.46875rem;
+  margin-right: 0.25rem;
+  border-radius: 50%;
+  background-color: white;
+}
+.listnav {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.listnav .minnav {
+  width: 33%;
+  margin-bottom: 8px;
+}
+.listnav .minnav img {
+  display: block;
+  width: 100%;
+  height: 110px;
+}
+.listnavTwo {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+.listnavTwo .minTwo {
+  float: left;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  width: 24.5%;
+}
+.listnavTwo .minTwo img {
+  display: block;
+  width: 100%;
+  height: 110px;
+}
+.listnavThree {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  background-color: white;
+}
+.listnavThree .minThree {
+  width: 49.8%;
+  border: 1px solid #ccc;
+}
+.listnavThree .minThree .minThreeSmall {
+  height: 112px;
+  border-bottom: 1px solid #ccc;
+  background-color: #d527a4;
+}
+.listnavThree .minThree .minThreeSmall img {
+  width: 100%;
+  height: 112px;
+}
+.listnavThree .minThreeOneimg img {
+  display: block;
+  width: 100%;
+  height: 225px;
+}
+.hot {
+  height: 50px;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.longListNav {
+  width: 100%;
+  background-color: white;
+}
+.longListNav .Longnav {
+  width: 100%;
+  border-top: 1px solid #ccc;
+}
+.longListNav .Longnav img {
+  width: 100%;
+  height: 122px;
+}
+.gray {
+  width: 100%;
+  height: 14px;
+  border-bottom: 1px solid #ccc;
+}
+.week {
+  width: 100%;
+  height: 42px;
+  text-align: center;
+}
+.week .weekend {
+  width: 50%;
+}
+.week .weekend a {
+  padding-bottom: 9px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  line-height: 42px;
+}
+.musicDiv {
+  width: 100%;
+  background-color: white;
+}
+.musicDiv ul {
+  width: 100%;
+}
+.musicDiv ul li {
+  width: 100%;
+}
+.musicDiv ul li a {
+  display: block;
+}
+.musicDiv ul li a img {
+  display: block;
+  height: 263px;
+  width: 100%;
+}
+.lookMore {
+  width: 100%;
+  margin: 15px 0;
+  height: 32px;
+}
+.lookMore p {
+  width: 100%;
+  line-height: 32px;
+  text-align: center;
+  background-color: white;
+}
+.bottomNav {
+  background-color: #d527a4;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+}
+.bottomNav input {
+  height: 30px;
+  background-color: #d527a4;
+  color: white;
+  margin-right: 20px;
+}

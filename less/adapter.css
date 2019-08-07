@@ -1,0 +1,56 @@
+@media only screen and (width: 320px) {
+  html {
+    font-size: 16px;
+  }
+  html {
+    height: 100%;
+  }
+}
+@media only screen and (width: 375px) {
+  html {
+    font-size: 18.75;
+  }
+  html {
+    height: 100%;
+  }
+}
+@media only screen and (width: 768px) {
+  html {
+    font-size: 38.4px;
+  }
+  html {
+    height: 100%;
+  }
+}
+@media only screen and (width: 414px) {
+  html {
+    font-size: 20.7px;
+  }
+  html {
+    height: 100%;
+  }
+}
+@media only screen and (width: 411px) {
+  html {
+    font-size: 20.55px;
+  }
+  html {
+    height: 100%;
+  }
+}
+@media only screen and (width: 1024px) {
+  html {
+    font-size: 51.2px;
+  }
+  html {
+    height: 100%;
+  }
+}
+@media only screen and (width: 360px) {
+  html {
+    font-size: 18px;
+  }
+  html {
+    height: 100%;
+  }
+}

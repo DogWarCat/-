@@ -1,0 +1,50 @@
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+li,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #050505;
+  font-family: "微软雅黑";
+  font-size: 15px;
+}
+a {
+  text-decoration: none;
+}
+img,
+input,
+button {
+  vertical-align: middle;
+  border: none;
+  outline-style: none;
+  padding: 0;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+.clearfix {
+  zoom: 1;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
